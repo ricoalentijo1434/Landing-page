@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Banaybanay Campus</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- font awsome cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- google font export -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">   
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-0">
+        <div class="row g-0 d-none d-lg-flex">
+            <div class="col-lg-6 ps-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center text-light">
+                    <span>Follow Us:</span>
+                    <a class="btn btn-link text-light" href="https://www.facebook.com/dorsubanaybanaycampus"><i class="fab fa-facebook-f"></i></a>
+                    <p style="margin-top: 17px;">Facebook</p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-end">
+                <div class="h-100 bg-secondary d-inline-flex align-items-center text-dark py-2 px-4">
+                    <span class="me-2 fw-semi-bold"><i class="fa fa-phone-alt me-2"></i>Call Us:</span>
+                    <span>+639 63 107 2083</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img style="width: 70px; height: 70px;" src="/img/BanayBanayLogo.png" alt="">
+            <h2 style="margin-left: 10px; font-size: 25px; color: #5b8c51; font-family: 'Open Sans">Banaybanay Campus</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Guidelines</a>
+                <a href="product.html" class="nav-item nav-link">Announcement</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu bg-light m-0">
+                        <a href="gallery.html" class="dropdown-item">Gallery</a>
+                        <a href="feature.html" class="dropdown-item">Features</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="border-start ps-4 d-none d-lg-block">
+                <button type="button" class="btn btn-sm p-0"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img style="width: 100%; height: 1070px;" class="w-80" src="img/dorsuBackground.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-8 text-start">
+                                    <p style="font-size: 80px;" class="fs-4 text-white">Welcome to Banaybanay Campus</p>
+                                    <h1 style="text-shadow: 2px 2px #5b8c51" class="display-1 text-white mb-5 animated slideInRight">A place where knowledge meets purpose</h1>
+                                    <a href="" class="btn btn-secondary rounded-pill py-3 px-5 animated slideInRight">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/dorsuBackground.2jpg.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-lg-8 text-end">
+                                    <p class="fs-4 text-white">Welcome to Banaybanay Campus</p>
+                                    <h1 style="text-shadow: 2px 2px #5b8c51;" class="display-1 text-white mb-5 animated slideInRight">Relevant and quality tertiary education</h1>
+                                    <a href="" class="btn btn-secondary rounded-pill py-3 px-5 animated slideInLeft">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-end">
+                <div class="col-lg-6">
+                    <div class="row g-2">
+                        <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
+                            <div style="z-index: 10000;" class="about-experience bg-secondary rounded">
+                                <h1 class="display-1 mb-0">9</h1>
+                                <small class="fs-5 fw-bold">Years of service</small>
+                            </div>
+                        </div>
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
+                            <img class="img-fluid rounded" src="img/anniversarry9.2jpg.jpg">
+                        </div>
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
+                            <img class="img-fluid rounded" src="img/anniversarry9.jpg">
+                        </div>
+                        <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
+                            <img class="img-fluid rounded" src="img/anniversarry93jpg.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <p class="section-title bg-white text-start text-primary pe-3">About Us</p>
+                    <h1 class="mb-4">Learn more about the Banaybanay campus</h1>
+                    <p class="mb-4">Empowering Futures Through Education
+                        Davao Oriental State University Banaybanay Campus is dedicated to transforming lives and communities through accessible, quality education, fostering innovation, and promoting sustainable development in Davao Oriental and beyond.</p>
+                    <div class="row g-5 pt-2 mb-5">
+                        <div class="col-sm-6">
+                            <i style="font-size: 40px; color: #5B8C51;" class="fa-solid fa-people-group"></i>
+                            <h5 class="mb-3">Inclusion</h5>
+                            <span>Equal access to opportunities and resources</span>
+                        </div>
+                        <div class="col-sm-6">
+                            <i  style="font-size: 40px; color: #5B8C51;" class="fa-solid fa-seedling"></i>
+                            <h5 class="mb-3">Smart Regenerative</h5>
+                            <span>Natural regenerative processes</span>
+                        </div>
+                    </div>
+                    <a class="btn btn-secondary rounded-pill py-3 px-5" href="">Explore More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="section-title bg-white text-start text-primary pe-3">Why Us!</p>
+                    <h1 class="mb-4">Few Reasons Why People Choosing Us!</h1>
+                    <p class="mb-4">Our institution values research, encouraging students to pursue innovative projects and solutions for real-world problems.</p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Building Leaders for tomorrow </p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Inspiring Change, Shaping Progress </p>
+                    <p><i class="fa fa-check text-primary me-3"></i>Ensuring a fulfilling college experience</p>
+                    <a class="btn btn-secondary rounded-pill py-3 px-5 mt-3" href="">Explore More</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="rounded overflow-hidden">
+                        <div class="row g-0">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="text-center bg-primary py-5 px-4">
+                                    <img class="img-fluid mb-4" src="img/experience.png" alt="">
+                                    <h1 class="display-6 text-white" data-toggle="counter-up">9</h1>
+                                    <span class="fs-5 fw-semi-bold text-secondary">Years of Serving</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                                <div class="text-center bg-secondary py-5 px-4">
+                                    <img class="img-fluid mb-4" src="img/award.png" alt="">
+                                    <h1 class="display-6" data-toggle="counter-up">183</h1>
+                                    <span class="fs-5 fw-semi-bold text-primary">Award Winning</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="text-center bg-secondary py-5 px-4">
+                                    <i style="font-size: 60px; color: #5B8C51; margin-bottom: 28px;" class="fa-regular fa-circle-user"></i>
+                                    <h1 class="display-6" data-toggle="counter-up">21</h1>
+                                    <span class="fs-5 fw-semi-bold text-primary">Total Faculty</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="text-center bg-primary py-5 px-4">
+                                    <img class="img-fluid mb-4" src="img/client.png" alt="">
+                                    <h1 class="display-6 text-white" data-toggle="counter-up">1190</h1>
+                                    <span class="fs-5 fw-semi-bold text-secondary">Total Students</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features End -->
+
+
+    <!-- Banner Start -->
+    <div class="container-fluid banner my-5 py-5" data-parallax="scroll" data-image-src="img/instrucotrGroupPictures.jpg">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-sm-4">
+                            <img class="img-fluid rounded" src="img/studentInvolved.jpg" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h2 class="text-white mb-3">Get Involved at DOrSU</h2>
+                            <p class="text-white mb-4">– Join a vibrant community by participating in clubs, societies, and campus events.</p>
+                            <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-sm-4">
+                            <img class="img-fluid rounded" src="img/studentHelath.avif" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h2 class="text-white mb-3">Stay Informed on Campus Health & Safety</h2>
+                            <p class="text-white mb-4">– Find the latest updates to keep our community safe and healthy.</p>
+                            <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="section-title bg-white text-center text-primary px-3">Guiding principles</p>
+                <h1 class="mb-5"></h1>
+            </div>
+            <div class="row gy-5 gx-4">
+                <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex h-100">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/vission.jpg" alt="">
+                        </div>
+                        <div class="service-text p-5 pt-0">
+                            <div class="service-icon">
+                                <img class="img-fluid rounded-circle" src="img/vissionLogo.png" alt="">
+                            </div>
+                            <h5 class="mb-3">Vision</h4>
+                            <p  class="mb-4">A University of excellence,innovation, and inclusion</p>
+                            <a class="btn btn-square rounded-circle" href=""><i class="bi bi-chevron-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex h-100">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/mission.jpg" alt="">
+                        </div>
+                        <div class="service-text p-5 pt-0">
+                            <div class="service-icon">
+                                <img class="img-fluid rounded-circle" src="img/missionLogo.jpeg" alt="">
+                            </div>
+                            <h5 class="mb-3">Mission</h5>
+                            <p class="mb-4">● To elevate knowledge generation, utilization and distribution. <br>
+                                            ● To promote inclusive sustainable development through research-based higher quality education, technical-vocational skills, responsive to the needs of local and global community; and <br>
+                                             ● To produce holistic, creative, and inclusive human resource who are responsive and resilient to global challenges while maintaining strong sense of nationhood.</p>
+                            <a class="btn btn-square rounded-circle" href=""><i class="bi bi-chevron-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 pt-5 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex h-100">
+                        <div class="service-img">
+                            <img class="img-fluid" src="img/coreValues.png" alt="">
+                        </div>
+                        <div class="service-text p-5 pt-0">
+                            <div class="service-icon">
+                                <img class="img-fluid rounded-circle" src="img/corevaluesLogo.jpg" alt="">
+                            </div>
+                            <h5 class="mb-3">Core Values</h5>
+                            <p class="mb-4">● Research-Oriented and Innovative <br>
+                                            ● Sense of Professionalism <br>
+                                            ● ICT-enabled <br>
+                                            ● Effective Communicator <br>
+                                            ● Gratitude and Compassion</p>
+                            <a class="btn btn-square rounded-circle" href=""><i class="bi bi-chevron-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Gallery Start -->
+    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+        <p class="section-title bg-white text-center text-primary px-3">GALERRY</p>
+        <h1 class="mb-5">SCHOOL  ACTIVITIES</h1>
+    </div>
+    <div class="container-xxl py-5 px-0">
+        <div class="row g-0">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <a class="d-block" href="img/student7.jpg" data-lightbox="gallery">
+                            <img class="img-fluid" src="img/student7.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a class="d-block" href="img/student1.jpg" data-lightbox="gallery">
+                            <img class="img-fluid" src="img/student1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <a class="d-block" href="img/gallery-2.jpg" data-lightbox="gallery">
+                            <img class="img-fluid" src="img/student2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a class="d-block" href="img/gallery-6.jpg" data-lightbox="gallery">
+                            <img class="img-fluid" src="img/student3.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <a class="d-block" href="img/student4.jpg" data-lightbox="gallery">
+                            <img class="img-fluid" src="img/student4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a class="d-block" href="img/student5.jpg" data-lightbox="gallery">
+                            <img class="img-fluid" src="img/student5.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <a class="d-block" href="img/student6.jpg" data-lightbox="gallery">
+                            <img class="img-fluid" src="img/student6.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <a class="d-block" href="img/student8.jpg" data-lightbox="gallery">
+                            <img style="width: 1280;;" class="img-fluid" src="img/student8.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+
+    <!-- Product Start -->
+    
+    
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="section-title bg-white text-center text-primary px-3">ANNOUNCEMENT AND EVENTS</p>
+                <h1 class="mb-5">EVENTS</h1>
+            </div>
+            <div class="row gx-0">
+                <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item w-100" style="padding: 20px;"> <!-- Set fixed height -->
+                        <div style="display: flex; flex-direction: column; justify-content: center;" class="position-relative h-100 ">
+                            <img style="width: 500px; align-self: center;"  src="img/studentAnnouncement.jpg" alt=""> 
+                            <div style="margin-top: 100px; z-index: 100;" class="text-center p-4">
+                                <p class="d-block h5 text-primary" href="">𝔸𝕟𝕟𝕠𝕦𝕟𝕔𝕖𝕞𝕖𝕟𝕥!! 📣📣
+                                    📢 Announcement from Good School, Banaybanay Campus 📢
+
+                                    Dear Students, Parents, and Faculty,
+                                    
+                                    We are excited to announce the upcoming Annual School Fair and Open House on November 20, 2024, from 9:00 AM to 4:00 PM! This event will be held on the school grounds and will feature:
+                                    
+                                    🎉 Fun Games & Activities
+                                    🎤 Student Performances
+                                    🍔 Food Stalls & Refreshments
+                                    🏆 Inter-School Competitions
+                                    📚 Open House with Faculty Meet-and-Greet
+                                    
+                                    This is a fantastic opportunity for prospective students and their families to explore our campus, meet our dedicated staff, and enjoy a day of festivities. Admission is free for all attendees.
+                                    
+                                    We look forward to welcoming you to an exciting day celebrating our school community. Let’s make this a memorable event together!
+                                    
+                                    Warm regards,
+                                    Good School, Banaybanay Campus Administration
+                            </div>
+                           
+                        </div>
+                       
+                    </div>
+                </div>  
+            </div>
+
+
+            <div class="container-xxl py-5">
+                <div class="container">
+                    <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <p class="section-title bg-white text-center text-primary px-3">ANNOUNCEMENT AND EVENTS</p>
+                        <h1 class="mb-5">Announcement</h1>
+                    </div>
+                    <div class="row gx-0">
+                        <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item w-100" style="padding: 20px;"> <!-- Set fixed height -->
+                                <div style="display: flex; flex-direction: column; justify-content: center;" class="position-relative h-100 ">
+                                    <img style="width: 500px; align-self: center;"  src="img/studentAnnouncement.jpg" alt=""> 
+                                    <div style="margin-top: 100px; z-index: 100;" class="text-center p-4">
+                                        <p class="d-block h5 text-primary" href="">𝔸𝕟𝕟𝕠𝕦𝕟𝕔𝕖𝕞𝕖𝕟𝕥!! 📣📣
+                                            📢 Announcement from Good School, Banaybanay Campus 📢
+        
+                                            Dear Students, Parents, and Faculty,
+                                            
+                                            We are excited to announce the upcoming Annual School Fair and Open House on November 20, 2024, from 9:00 AM to 4:00 PM! This event will be held on the school grounds and will feature:
+                                            
+                                            🎉 Fun Games & Activities
+                                            🎤 Student Performances
+                                            🍔 Food Stalls & Refreshments
+                                            🏆 Inter-School Competitions
+                                            📚 Open House with Faculty Meet-and-Greet
+                                            
+                                            This is a fantastic opportunity for prospective students and their families to explore our campus, meet our dedicated staff, and enjoy a day of festivities. Admission is free for all attendees.
+                                            
+                                            We look forward to welcoming you to an exciting day celebrating our school community. Let’s make this a memorable event together!
+                                            
+                                            Warm regards,
+                                            Good School, Banaybanay Campus Administration
+                                    </div>
+                                   
+                                </div>
+                               
+                            </div>
+                        </div>  
+                    </div>
+            
+            
+            
+        </div>
+    </div>
+    <!-- Product End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="section-title bg-white text-center text-primary px-3">Our Team</p>
+                <h1 class="mb-5">Experienced Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded p-4">
+                        <img class="img-fluid rounded mb-4" src="img/yoyponce.jpg" alt="">
+                        <h5>Dr. Roy Ponce</h5>
+                        <p class="text-primary">DOrSU head</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded p-4">
+                        <img class="img-fluid rounded mb-4" src="img/an.jpg" alt="">
+                        <h5>Dr. Analie Nemenzo</h5>
+                        <p class="text-primary">School Head</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded p-4">
+                        <img class="img-fluid rounded mb-4" src="img/bags.jpg" alt="">
+                        <h5>Dr. John Bagcal</h5>
+                        <p class="text-primary">Head Instructor</p>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-secondary rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="section-title bg-white text-center text-primary px-3">Testimonial</p>
+                <h1 class="mb-5">What Student Say About Banaybanay Campus</h1>
+            </div>
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-img">
+                        <img class="img-fluid animated pulse infinite" src="img/studentSheila.jpg" alt="">
+                        <img class="img-fluid animated pulse infinite" src="img/studentJessa.jpg" alt="">
+                        <img class="img-fluid animated pulse infinite" src="img/studentBaylosis.jpg" alt="">
+                        <img class="img-fluid animated pulse infinite" src="img/studentEdriane.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-3" src="img/studentSheila.jpg" alt="">
+                            <p class="fs-5">"Being a student at Good School, Banaybanay Campus, has been an amazing experience. The teachers here are not only knowledgeable but genuinely care about our personal growth. They go above and beyond to help us succeed academically and personally. I've grown so much in my studies and confidence!"</p>
+                            <h5>Sheila Dacillo</h5>
+                            <span class="text-primary">Student</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-3" src="img/studentJessa.jpg" alt="">
+                            <p class="fs-5">"Good School has a vibrant campus that makes learning exciting every day. The facilities are top-notch, and there are so many extracurricular activities that keep us engaged. I've found my passion for science here, thanks to the supportive environment and resources available to us!"</p>
+                            <h5>Jessa Andres</h5>
+                            <span class="text-primary">Student</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-3" src="img/studentBaylosis.jpg" alt="">
+                            <p class="fs-5">"As a senior, I can say that Good School prepares you for the real world. The teachers are highly experienced, and the lessons are practical, focusing on real-life applications. We also have seminars and career guidance sessions that make us feel ready to take on college and beyond."</p>
+                            <h5>John Baylosis</h5>
+                            <span class="text-primary">Student</span>
+                        </div>
+                        <div class="testimonial-item">
+                            <img class="img-fluid mb-3" src="img/studentEdriane.jpg" alt="">
+                            <p class="fs-5">"I’m so happy to be at Good School, Banaybanay Campus! The community here is like a family. Everyone supports each other, and we have lots of fun while learning. I’ve made great friends and discovered a love for literature. I can’t wait to see what else I’ll learn here!"</p>
+                            <h5>Edriane Manicdog</h5>
+                            <span class="text-primary">Student</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Our Office</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Freedom, Banaybanay</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+639 85 601 1442</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>banaybanaycampus@gmail.com</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">Support</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Open Hours</h5>
+                    <p class="mb-1">Monday - Friday</p>
+                    <h6 class="text-light">07:00 am - 09:00 pm</h6>
+                    <p class="mb-1">Saturday</p>
+                    <h6 class="text-light">07:00 am - 9:00 pm</h6>
+                    <p class="mb-1">Sunday</p>
+                    <h6 class="text-light">Closed</h6>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <p>Welcome to Good School, Banaybanay Campus, where we provide a nurturing environment for academic excellence, personal growth, and vibrant extracurricular opportunities.</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-secondary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-secondary text-body copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <a class="fw-semi-bold" href="#">banaybanay@</a>, All Right Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
